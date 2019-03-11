@@ -8,6 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .column:first-child,
  .columns:first-child {
   margin-left:0;
@@ -179,6 +181,10 @@ span.new {
 
 .contact {
   display: inline-block;
+}
+
+ul{
+  color: #FFF
 }
 
 .pulled {}
