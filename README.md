@@ -1,5 +1,4 @@
-##Basic Personal Website
+## Basic Personal Website
 
-
-Orginally from https://github.com/j-w-v
+Thanks to and Orginally from https://github.com/j-w-v
 
