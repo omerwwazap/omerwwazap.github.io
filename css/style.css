@@ -184,7 +184,16 @@ span.new {
 }
 
 ul{
-  color: #FFF
+  color: #FFF;
+}
+
+li{
+  color: #FFF;
+  margin: 1rem 5rem;
+}
+
+body{
+  color: #FFF;
 }
 
 .pulled {}
