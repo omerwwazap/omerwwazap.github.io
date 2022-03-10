@@ -1,0 +1,258 @@
+<html data-theme-override="dark" lang="en">
+
+<head>
+    <title>Ömer Levent Durdalı • Security Analyst 💻</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="Information Security Associate at Turkcell, working remotely from Ankara Turkey" name="description">
+    <meta name="author" content="Levent Durdalı">
+    <meta name="keywords" content="Cyber, Security, Software, Developer, Levent, Durdalı">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="">
+    <link href="https://www.cccccc.com" rel="canonical">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        // ------------------------------------------------------------------------------------------
+        //  Theme switching
+        // ------------------------------------------------------------------------------------------
+        const THEME_LOCAL_STORAGE_KEY = 'omerwwazap_theme';
+        const THEME_INPUT_SELECTOR = 'input[name="dark-theme"]';
+        const THEMES = {
+            LIGHT: 'light',
+            DARK: 'dark',
+        };
+
+        // If the user has explicitly chosen a theme (e.g. we stored it in local storage) use that,
+        // otherwise use the system default
+        function detectTheme() {
+            const storedPreference = localStorage.getItem(THEME_LOCAL_STORAGE_KEY);
+            const systemPreference = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? THEMES.DARK : THEMES.LIGHT;
+            return storedPreference || systemPreference;
+        }
+
+        // Apply the theme from `detectTheme` to:
+        //
+        //   1. The `data-theme-override` attribute of the `html` element, and …
+        //   2. The theme selector input control
+        //
+        function applyTheme() {
+            const themeName = detectTheme();
+
+            document.documentElement.setAttribute('data-theme-override', themeName);
+            document.querySelector(THEME_INPUT_SELECTOR).checked = themeName === THEMES.DARK;
+        }
+
+        // Store the given theme as the user's preference in local storage
+        function storeThemePreference(themeName) {
+            localStorage.setItem(THEME_LOCAL_STORAGE_KEY, themeName);
+        }
+
+        // Listen for changes to the system-default colour scheme
+        if (window.matchMedia) {
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+        }
+
+        // Once the DOM has been parsed:
+        //
+        //   1. Apply the theme, and …
+        //   2. Set up listeners on the theme switch inputs
+        //
+        // It's important this happens here, rather than on the `load` event, to avoid a FoUC
+        window.addEventListener('DOMContentLoaded', () => {
+            applyTheme();
+
+            const themeInput = document.querySelector(THEME_INPUT_SELECTOR);
+            themeInput.addEventListener('change', (e) => {
+                storeThemePreference(e.target.checked ? THEMES.DARK : THEMES.LIGHT);
+                applyTheme();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="avatar-and-name-container">
+                <div class="avatar-container">
+                    <img src="images/avatar3.png" alt="Ömer Levent Durdalı" class="avatar-image">
+                </div>
+                <div>
+                    <h1>Ömer Levent Durdalı</h1>
+                    <div class="subtitle">Hello.</div>
+                </div>
+            </div>
+            <nav>
+                <label for="mobile-menu-switch">Toggle menu</label>
+                <input id="mobile-menu-switch" type="checkbox" name="menu-open" class="mobile-menu-switch">
+                <label for="theme-switch">Toggle theme</label>
+                <input id="theme-switch" type="checkbox" name="dark-theme" class="theme-switch">
+                <ul>
+                    <li><a target="_blank" href="https://www.turkcell.com.tr/" rel="noreferrer noopener nofollow">Turkcell</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/leventdurdali" rel="noreferrer noopener nofollow">Linkedin</a></li>
+                    <li><a target="_blank" href="https://github.com/omerwwazap" rel="noreferrer noopener nofollow">Github</a></li>
+                    <li><a target="_blank" href="https://medium.com/@leventd" rel="noreferrer noopener nofollow">Medium</a></li>
+                    <li><a target="_blank" href="mailto:levent07@protonmailch.com">Email</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <span class="tag">Currently Job Seeking</span>
+            <blockquote>
+                Ever since my first Cyber Security Internship at
+                <a target="_blank" href="https://www.turksat.com.tr/en" rel="noreferrer noopener nofollow">Turksat</a>, I've been trying to find more opportunities in this field. Over the years, I have worked at
+                <a target="_blank" href="https://www.stm.com.tr/en" rel="noreferrer noopener nofollow">STM</a> and
+                <a target="_blank" href="https://www.yapikredi.com.tr/en/" rel="noreferrer noopener nofollow">Yapı Kredi's</a> Cyber Operation Center as an Security Analyst and a Junior Security Engineer.
+                <p>I'm currently working as an Information Security Associate at <a href="https://www.turkcell.com.tr/english-support" target="_blank">Turkcell</a>, Turkey's biggest telecom company.</p>
+                <p>I <span class="emoji">❤️</span> reading tech and defence industry articles and learning about Arduino, Raspberry Pi like electronics. Oh ans I just started solving OSINT Geolocation Challenges, you can check them out on my <a target="_blank"
+                        href="https://medium.com/@leventd" rel="noreferrer noopener nofollow">Medium</a></p>
+            </blockquote>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://www.turkcell.com.tr/" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/tcell.png" alt="Turkcell" class="org-logo-light">
+                            <img src="images/tcell.png" alt="Turkcell" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">Turkcell Communications</div>
+                            <div class="subtitle">Information Security Associate</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        Cyber Security Directorate - Security Management and Architecture Team
+                        <li>Managing the Information Security process and providing coordination on Governance, Risk and Compliance for Cyber ​​Security.</li>
+                        <li>Carrying out activities to increase Information Security Awareness, creating training and communication roadmaps, and carries out studies that will increase overall security competence.</li>
+                        <li>Determining Cyber and Information Security strategy in compliance with overall company strategies.</li>
+                        <li>Working remotely with the Istanbul team.</li>
+                        <li class="role-tenure">Sep 2021 - Present</li>
+                    </ul>
+                </li>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://www.yapikredi.com.tr/en/" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/yapıkredi.jpg" alt="Yapı Kredi Technology" class="org-logo-light">
+                            <img src="images/yapıkredi.jpg" alt="Yapı Kredi Technology" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">Yapı Kredi Bank</div>
+                            <div class="subtitle">Junior Security Engineer - Part Time</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        Security Operation Center (SOC)
+                        <li>IBM Security SOAR (Resilient) App, Rule and Playbook Integration Server Configuration and Management.</li>
+                        <li>Resilient and MISP automation Project</li>
+                        <li>Splunk and IBM Qradar Integration and Management Projects.</li>
+                        <li>Metric Projects and Basic SOC Engineering</li>
+                        <li>Stack: MSIP, QRadar, Resilient, Triage , Splunk, Python</li>
+                        <li class="role-tenure">May 2021 - Jul 2021 · (3 months)</li>
+                    </ul>
+                </li>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://www.stm.com.tr/en" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/STMpng" alt="STM Defence" class="org-logo-light">
+                            <img src="images/STM-light.png" alt="STM Defence" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">STM Defence</div>
+                            <div class="subtitle">Cyber Security Intern</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        Cyber Security Directorate / Cyber Fusion Center
+                        <li>Web Application Development with Django Framework ( Threat Intelligence Application )</li>
+                        <li>Honeypot Configuration and Management</li>
+                        <li>Attack Surface Analysis & Reports </li>
+                        <li>Open Source Intelligence (OSINT) with variety of tools</li>
+                        <li>Scripts with Python</li>
+                        <li>Stack: Django Development, Threat Intelligence Platform Development,Honeypot ,VBA Macro, Malware Analysis (PoetRAT), Attack Surface Analysis , OSINT (Tor Node, Spiderfoot, Maltego, Recon-ng), Python</li>
+                        <li class="role-tenure">Feb 2020 - Jun 2020 · (5 months)</li>
+                    </ul>
+                </li>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://www.turksat.com.tr/en" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/turksat.png" alt="Turksat Satellite" class="org-logo-light">
+                            <img src="images/turksat.png" alt="Turksat Satellite" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">Turksat Satellite Inc.</div>
+                            <div class="subtitle">IT Security Intern</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        Enterprise Information and Cyber Security Directorate
+                        <li>Wrote and Implemented Switch and Router Hardening Document.</li>
+                        <li>Network Security and Monitoring.</li>
+                        <li>Basic VBA work</li>
+                        <li>Analyzed and documented different web tracker behaviors that effected certain servers</li>
+                        <li>IT Security related topics</li>
+                        <li>Stack: Cisco CLI, Cisco Routers and Switch, VBS Macro, Python, Log4j, Tomcati, Regex, </li>
+                        <li class="role-tenure">Jun 2019 - Aug 2019 · (3 months)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://w3.bilkent.edu.tr/bilkent/" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/bilkent.png" alt="Bilkent" class="org-logo-light">
+                            <img src="images/bilkent.png" alt="Bilkent" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">Bachelor of Science - Computer Technology and Information Systems</div>
+                            <div class="subtitle"> Bilkent University</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        <li>3rd and 4th year Honour Certificate</li>
+                        <li>Member of Information Security Society, Science Fiction and Fantasy Society and East Asia Society </li>
+                        <li>Projects:
+                            <a target="_blank" href="https://github.com/IoTFarming-CTISTeam3" rel="noreferrer noopener nofollow"> Elixir (Agricultural Irrigaiton support and optimizaiton system) </a> and
+                            <a target="_blank" href="https://github.com/omerwwazap/ESP8266-GPIO-Usage" rel="noreferrer noopener nofollow"> Smart Home Automation System</a>
+                        </li>
+                        <li>Publications:
+                            <a target="_blank" href="http://repository.bilkent.edu.tr/handle/11693/52569" rel="noreferrer noopener nofollow"> Türkiye’de Linux ve Linux Kullanıcıları Derneği </a> and
+                            <a target="_blank" href="https://github.com/omerwwazap/CTIS-365-Project/" rel="noreferrer noopener nofollow"> Total Number of Defence related UAV compression in the
+                                Middle East: Turkish Security Forces </a>
+                        </li>
+                        <li>2,96 / 4.00 GPA</li>
+                        <li class="role-tenure">2017 - 2021</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="role">
+                    <div class="role-header">
+                        <a href="https://asotek.com.tr/" target="_blank" rel="noreferrer noopener nofollow" class="org-logo">
+                            <img src="images/aso - light.png" alt="Aso Teknik" class="org-logo-light">
+                            <img src="images/aso.png" alt="Aso Teknik" class="org-logo-dark">
+                        </a>
+                        <div>
+                            <div class="role-title">Technical High School Degree - Mechanical Technologies</div>
+                            <div class="subtitle">ASO Technical College</div>
+                        </div>
+                    </div>
+                    <ul class="role-key-points">
+                        <li>Draw hand-made Technical Drawings, use AutoCAD and Solid Works / Solid CAM</li>
+                        <li>Used CNCs, lathes, and mills.</li>
+                        <li>Here is my <a target="_blank" href="https://grabcad.com/levent.d-1 " rel="noreferrer noopener nofollow">GrabCAD</a> profile.</li>
+                        <li class="role-tenure">2013 - 2017</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="footer ">
+        <p>Thanks to <a href="https://github.com/campriceaustin">Github Cam</a></p>
+    </div>
+</body>
+
+</html>
