@@ -732,3 +732,12 @@ ul {
     color: var(--subtle-text-color);
     padding-top: 4px;
 }
+
+.footer {}
+
+.footer p {
+    color: white;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
