@@ -8,3 +8,4 @@ Check Out Later
 - https://github.com/mmistakes/minimal-mistakes
 - https://github.com/kitian616/jekyll-TeXt-theme
 - https://github.com/cotes2020/jekyll-theme-chirpy/
+- https://github.com/daattali/beautiful-jekyll
