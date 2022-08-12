@@ -308,7 +308,7 @@ a:focus-visible {
 
 header,
 section {
-    margin-bottom: var(--section-spacing);
+    margin-bottom: 80px;
 }
 
 header {
@@ -564,6 +564,7 @@ nav label {
     background-color: var(--tag-background-color);
     color: var(--tag-text-color);
     transition: background-color var(--transition), color var(--transition);
+    margin-top: 10px;
 }
 
 blockquote {
