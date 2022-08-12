@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.container {}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.dataBox {
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 8px 16px;
+    margin: 40px 0 10px 0;
+    font-size: 16px;
+    outline: none;
+    border-color: #ffca28;
+    text-align: center;
+    border-width: 4px;
+}
+
+.btn {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    background-color: #ffca28;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #41330a;
+    border-radius: 40px;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.qrdiv {
+    text-align: center;
+}
+
+.qrcode {
+    margin: 30px 0;
+}
+
+.qrcode>img {
+    background-color: #ffca28;
+}
+
+.downloadBtn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.downloadBtn:hover {
+    border-bottom: dashed #809180 2px;
+}
+
+.hide {
+    display: none;
+}
+
+.error {
+    border-color: rgb(225, 0, 0);
+}
