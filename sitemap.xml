@@ -9,13 +9,303 @@
 
 <url>
   <loc>https://omerwwazap.github.io/</loc>
-  <lastmod>2022-04-08T07:27:07+00:00</lastmod>
+  <lastmod>2023-11-05T12:12:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://omerwwazap.github.io/Documents/LeventDurdaliCV.pdf</loc>
-  <lastmod>2022-04-08T07:27:07+00:00</lastmod>
+  <loc>https://omerwwazap.github.io/blog/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/SecurityRisksofPublicLLMs/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/NIST-PhisScale/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/C2M2/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/PhishTrend2022/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/Secure-Password-Generator/</loc>
+  <lastmod>2022-09-03T13:09:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/QR-Code-Generator/</loc>
+  <lastmod>2022-08-29T15:09:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/CTF-Resources/</loc>
+  <lastmod>2023-03-09T18:12:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/archives/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/BypassingDLP/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/RaspberryPi-1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/RTL-SDR-1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/FlipperZero-1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/LetsDefendCH3/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/LetsDefendCH2/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/page2/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/page3/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/english/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/turkish/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/letsdefend/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/work-in-progress/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/academic/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/ai/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/cybersoc/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/face-detection/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/ideas/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/legal-aspects/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/cyber-security/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/secure-artificial-intelligence/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/llm/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/AI-Gen-Person-Detection/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/Use-of-Overpassturbo/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/OSINT-GeoEstimation/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/phishing/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/Entry-to-OSINT-3/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/TRGR-Disputes-1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/management/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/Entry-to-OSINT-1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/artificial-intelligence/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/legal/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/systems/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/walkthroughs/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/hardware/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/flipper-zero/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/rtl-sdr/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/raspberry-pi/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/international-relations/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/mediterranean/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/osint/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/categories/geolocation/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/maritime/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/tags/overpassturbo/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/LetsDefendCH1/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/LegalAspectsofMaritimeCyberSec/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/Entry-to-OSINT-2/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/cybersoc-cyber-detective-ctf-write-up-evidence-investigation/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://omerwwazap.github.io/blog/posts/cybersoc-cyber-detective-ctf-write-up-life-online/</loc>
+  <lastmod>2023-11-05T19:16:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
